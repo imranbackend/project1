@@ -1,0 +1,7 @@
+decimal_num= input("enter float number")
+x= float(decimal_num)
+rounded_number= round(x,2)
+print("original number is "+str(x)+" and rounded number is "+str(rounded_number))
+y= str(rounded_number)
+z= len(y)
+print("the length of string is "+str(z))
